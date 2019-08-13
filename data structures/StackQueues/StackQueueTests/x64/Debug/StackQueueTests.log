@@ -1,0 +1,4 @@
+﻿  unittest1.cpp
+c:\users\jnoto\onedrive\documents\school\fall 2018\data structures\stackqueues\stackqueues\stackqueues.h(83): warning C4251: 'ArrayBasedQueue::moveList': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'ArrayBasedQueue'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  StackQueueTests.vcxproj -> C:\Users\jnoto\OneDrive\Documents\school\fall 2018\data structures\StackQueues\x64\Debug\StackQueueTests.dll

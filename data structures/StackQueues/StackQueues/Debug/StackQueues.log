@@ -1,0 +1,15 @@
+﻿  dllmain.cpp
+  StackQueues.cpp
+  Generating Code...
+c:\users\patrick\dropbox\ecee2080\week3\stackqueues\stackqueues\stackqueues.cpp(20): warning C4715: 'ArrayBasedStack::peek': not all control paths return a value
+c:\users\patrick\dropbox\ecee2080\week3\stackqueues\stackqueues\stackqueues.cpp(34): warning C4715: 'ArrayBasedQueue::peekFront': not all control paths return a value
+     Creating library C:\Users\Patrick\Dropbox\ECEE2080\week3\StackQueues\Debug\STACKQUEUES.lib and object C:\Users\Patrick\Dropbox\ECEE2080\week3\StackQueues\Debug\STACKQUEUES.exp
+StackQueues.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall ArrayBasedStack::~ArrayBasedStack(void)" (??1ArrayBasedStack@@UAE@XZ) referenced in function "public: virtual void * __thiscall ArrayBasedStack::`vector deleting destructor'(unsigned int)" (??_EArrayBasedStack@@UAEPAXI@Z)
+StackQueues.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall ArrayBasedStack::isEmpty(void)const " (?isEmpty@ArrayBasedStack@@UBE_NXZ)
+StackQueues.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall ArrayBasedStack::push(int)" (?push@ArrayBasedStack@@UAE_NH@Z)
+StackQueues.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall ArrayBasedStack::pop(void)" (?pop@ArrayBasedStack@@UAE_NXZ)
+StackQueues.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall ArrayBasedQueue::~ArrayBasedQueue(void)" (??1ArrayBasedQueue@@UAE@XZ) referenced in function "public: virtual void * __thiscall ArrayBasedQueue::`vector deleting destructor'(unsigned int)" (??_EArrayBasedQueue@@UAEPAXI@Z)
+StackQueues.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall ArrayBasedQueue::isEmpty(void)const " (?isEmpty@ArrayBasedQueue@@UBE_NXZ)
+StackQueues.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall ArrayBasedQueue::enQueue(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?enQueue@ArrayBasedQueue@@UAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+StackQueues.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall ArrayBasedQueue::deQueue(void)" (?deQueue@ArrayBasedQueue@@UAE_NXZ)
+C:\Users\Patrick\Dropbox\ECEE2080\week3\StackQueues\Debug\STACKQUEUES.dll : fatal error LNK1120: 8 unresolved externals

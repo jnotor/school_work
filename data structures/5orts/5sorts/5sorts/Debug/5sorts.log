@@ -1,0 +1,27 @@
+﻿  5sorts.cpp
+c:\users\jnoto\onedrive\documents\school\fall 2018\data structures\5orts\5sorts\5sorts\5sorts.cpp(81): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+c:\users\jnoto\onedrive\documents\school\fall 2018\data structures\5orts\5sorts\5sorts\5sorts.cpp(120): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+c:\users\jnoto\onedrive\documents\school\fall 2018\data structures\5orts\5sorts\5sorts\5sorts.cpp(184): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+c:\users\jnoto\onedrive\documents\school\fall 2018\data structures\5orts\5sorts\5sorts\5sorts.cpp(207): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+c:\users\jnoto\onedrive\documents\school\fall 2018\data structures\5orts\5sorts\5sorts\5sorts.cpp(237): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  5sorts.vcxproj -> C:\Users\jnoto\OneDrive\Documents\school\fall 2018\data structures\5orts\5sorts\Debug\MY5SORTS.dll

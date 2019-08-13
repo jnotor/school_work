@@ -1,0 +1,2 @@
+﻿  unittest1.cpp
+d:\j_files\docs\school\uc\2018\data structures\heap\heap\unittest1\unittest1.cpp(21): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?

@@ -1,0 +1,45 @@
+﻿  Stack13.cpp
+c:\users\jnoto\onedrive\documents\school\fall 2018\data structures\play13\stack13\stack13\stack13.h(104): warning C4251: 'Player::pName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Player'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\jnoto\onedrive\documents\school\fall 2018\data structures\play13\stack13\stack13\stack13.h(105): warning C4251: 'Player::pStack': class 'std::list<const Cards *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Player'
+          with
+          [
+              _Ty=const Cards *
+          ]
+  c:\users\jnoto\onedrive\documents\school\fall 2018\data structures\play13\stack13\stack13\stack13.h(90): note: see declaration of 'std::list<const Cards *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=const Cards *
+          ]
+c:\users\jnoto\onedrive\documents\school\fall 2018\data structures\play13\stack13\stack13\stack13.h(106): warning C4251: 'Player::pHand': class 'std::list<const Cards *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Player'
+          with
+          [
+              _Ty=const Cards *
+          ]
+  c:\users\jnoto\onedrive\documents\school\fall 2018\data structures\play13\stack13\stack13\stack13.h(90): note: see declaration of 'std::list<const Cards *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=const Cards *
+          ]
+c:\users\jnoto\onedrive\documents\school\fall 2018\data structures\play13\stack13\stack13\stack13.cpp(84): warning C4251: 'Game::mCardList': class 'std::list<Cards *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Game'
+          with
+          [
+              _Ty=Cards *
+          ]
+  c:\users\jnoto\onedrive\documents\school\fall 2018\data structures\play13\stack13\stack13\stack13.cpp(84): note: see declaration of 'std::list<Cards *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Cards *
+          ]
+c:\users\jnoto\onedrive\documents\school\fall 2018\data structures\play13\stack13\stack13\stack13.cpp(85): warning C4251: 'Game::Deck': class 'std::list<const Cards *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Game'
+          with
+          [
+              _Ty=const Cards *
+          ]
+  c:\users\jnoto\onedrive\documents\school\fall 2018\data structures\play13\stack13\stack13\stack13.h(90): note: see declaration of 'std::list<const Cards *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=const Cards *
+          ]
+     Creating library C:\Users\jnoto\OneDrive\Documents\school\fall 2018\data structures\play13\Stack13\Debug\STACK13.lib and object C:\Users\jnoto\OneDrive\Documents\school\fall 2018\data structures\play13\Stack13\Debug\STACK13.exp
+  Stack13.vcxproj -> C:\Users\jnoto\OneDrive\Documents\school\fall 2018\data structures\play13\Stack13\Debug\STACK13.dll

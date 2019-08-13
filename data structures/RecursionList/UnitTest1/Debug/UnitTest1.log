@@ -1,0 +1,70 @@
+﻿  stdafx.cpp
+  unittest1.cpp
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(17): error C2259: 'FactorialByLoop': cannot instantiate abstract class
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(17): note: due to following members:
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(17): note: 'int IFactorialComputer::CalculateFactorial(int)': is abstract
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(18): note: see declaration of 'IFactorialComputer::CalculateFactorial'
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(17): error C2248: 'FactorialByLoop::FactorialByLoop': cannot access private member declared in class 'FactorialByLoop'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(24): note: see declaration of 'FactorialByLoop::FactorialByLoop'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(22): note: see declaration of 'FactorialByLoop'
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(19): error C2248: 'IFactorialComputer::CalculateFactorial': cannot access private member declared in class 'IFactorialComputer'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(18): note: see declaration of 'IFactorialComputer::CalculateFactorial'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(15): note: see declaration of 'IFactorialComputer'
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(28): error C2259: 'FactorialByLoop': cannot instantiate abstract class
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(28): note: due to following members:
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(28): note: 'int IFactorialComputer::CalculateFactorial(int)': is abstract
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(18): note: see declaration of 'IFactorialComputer::CalculateFactorial'
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(28): error C2248: 'FactorialByLoop::FactorialByLoop': cannot access private member declared in class 'FactorialByLoop'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(24): note: see declaration of 'FactorialByLoop::FactorialByLoop'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(22): note: see declaration of 'FactorialByLoop'
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(30): error C2248: 'IFactorialComputer::CalculateFactorial': cannot access private member declared in class 'IFactorialComputer'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(18): note: see declaration of 'IFactorialComputer::CalculateFactorial'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(15): note: see declaration of 'IFactorialComputer'
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(37): error C2259: 'FactorialByRecursion': cannot instantiate abstract class
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(37): note: due to following members:
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(37): note: 'int IFactorialComputer::CalculateFactorial(int)': is abstract
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(18): note: see declaration of 'IFactorialComputer::CalculateFactorial'
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(37): error C2248: 'FactorialByRecursion::FactorialByRecursion': cannot access private member declared in class 'FactorialByRecursion'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(30): note: see declaration of 'FactorialByRecursion::FactorialByRecursion'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(28): note: see declaration of 'FactorialByRecursion'
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(39): error C2248: 'IFactorialComputer::CalculateFactorial': cannot access private member declared in class 'IFactorialComputer'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(18): note: see declaration of 'IFactorialComputer::CalculateFactorial'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(15): note: see declaration of 'IFactorialComputer'
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(46): error C2259: 'FactorialByRecursion': cannot instantiate abstract class
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(46): note: due to following members:
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(46): note: 'int IFactorialComputer::CalculateFactorial(int)': is abstract
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(18): note: see declaration of 'IFactorialComputer::CalculateFactorial'
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(46): error C2248: 'FactorialByRecursion::FactorialByRecursion': cannot access private member declared in class 'FactorialByRecursion'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(30): note: see declaration of 'FactorialByRecursion::FactorialByRecursion'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(28): note: see declaration of 'FactorialByRecursion'
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(48): error C2248: 'IFactorialComputer::CalculateFactorial': cannot access private member declared in class 'IFactorialComputer'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(18): note: see declaration of 'IFactorialComputer::CalculateFactorial'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(15): note: see declaration of 'IFactorialComputer'
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(56): error C2259: 'FactorialByStack': cannot instantiate abstract class
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(56): note: due to following members:
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(56): note: 'int IFactorialComputer::CalculateFactorial(int)': is abstract
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(18): note: see declaration of 'IFactorialComputer::CalculateFactorial'
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(56): error C2248: 'FactorialByStack::FactorialByStack': cannot access private member declared in class 'FactorialByStack'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(37): note: see declaration of 'FactorialByStack::FactorialByStack'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(35): note: see declaration of 'FactorialByStack'
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(58): error C2248: 'IFactorialComputer::CalculateFactorial': cannot access private member declared in class 'IFactorialComputer'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(18): note: see declaration of 'IFactorialComputer::CalculateFactorial'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(15): note: see declaration of 'IFactorialComputer'
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(66): error C2259: 'FactorialByStack': cannot instantiate abstract class
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(66): note: due to following members:
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(66): note: 'int IFactorialComputer::CalculateFactorial(int)': is abstract
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(18): note: see declaration of 'IFactorialComputer::CalculateFactorial'
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(66): error C2248: 'FactorialByStack::FactorialByStack': cannot access private member declared in class 'FactorialByStack'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(37): note: see declaration of 'FactorialByStack::FactorialByStack'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(35): note: see declaration of 'FactorialByStack'
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(68): error C2248: 'IFactorialComputer::CalculateFactorial': cannot access private member declared in class 'IFactorialComputer'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(18): note: see declaration of 'IFactorialComputer::CalculateFactorial'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\recursionlist\recursionlist.h(15): note: see declaration of 'IFactorialComputer'
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(82): error C2664: 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::Fail(const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': cannot convert argument 1 from 'const char *' to 'const wchar_t *'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(82): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(91): error C2664: 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::Fail(const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': cannot convert argument 1 from 'const char [37]' to 'const wchar_t *'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(91): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(98): error C2664: 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::Fail(const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': cannot convert argument 1 from 'const char [24]' to 'const wchar_t *'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(98): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(107): error C2664: 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::Fail(const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': cannot convert argument 1 from 'const char [37]' to 'const wchar_t *'
+  c:\users\patrick\dropbox\ecee2080\week4\recursionlist\unittest1\unittest1.cpp(107): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
