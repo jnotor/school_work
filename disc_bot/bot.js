@@ -7,6 +7,7 @@ https://github.com/DV8FromTheWorld/JDA/blob/master/src/examples/java/MessageList
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
+
 // Configure logger settings
 logger.remove(logger.transports.Console);
 logger.add(new logger.transports.Console, {
@@ -24,24 +25,28 @@ bot.on('ready', function (evt) {
     logger.info(bot.username + ' - (' + bot.id + ')');
 });
 bot.on('message', function (user, userID, channelID, message, evt) {
-    // Our bot needs to know if it will execute a command
-    // It will listen for messages that will start with `!`
     if (channelID == 614949965021708329){
         if (userID == 155564652208717824) {
             if (message.substring(0,1) == '') {
-                //if (message.attachments.every(attachIsImage)){
                     bot.sendMessage({
                             to: channelID,
                             message: 'Nice meme, Daniel!'
                     });
-                  //  }
                 }
             }
+        if (message.substring(0,1) == '!') {
+            bot.sendMessage({
+                to: channelID,
+                message: 'Hey' //+ message.author.toString()
+            });
+        }
         }
     });
+bot.on('message', (receivedMessage) => {
+    // Prevent bot from responding to its own messages
+    if (receivedMessage.author == bot.user) {
+        return
+    }
 
-function attachIsImage(msgAttach) {
-    var url = msgAttach.url;
-    //True if this url is a png image.
-    return url.indexOf("png", url.length - "png".length /*or 3*/) !== -1;
-};
+    receivedMessage.channel.send("Message received from " + receivedMessage.author.toString() + ": " + receivedMessage.content)
+})
