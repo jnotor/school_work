@@ -15,33 +15,33 @@ logger.add(new logger.transports.Console, {
 logger.level = 'debug';
 // Initialize Discord Bot
 var bot = new Discord.Client({
-   token: auth.token,
-   autorun: true
+    token: auth.token,
+    autorun: true
 });
-bot.on('ready', function (evt) {
+bot.on('ready', function(evt) {
     logger.info('Connected');
     logger.info('Logged in as: ');
     logger.info(bot.username + ' - (' + bot.id + ')');
 });
-bot.on('message', function (user, userID, channelID, message, evt) {
+bot.on('message', function(user, userID, channelID, message, evt) {
     // Our bot needs to know if it will execute a command
     // It will listen for messages that will start with `!`
-    if (channelID == 614949965021708329){
-        if (userID == 155564652208717824) {
-            if (message.substring(0,1) == '') {
+    if (channelID == 315274046763827202) {
+        if (userID == 273641206381019136) {
+            if (message.substring(0, 1) == '') {
                 //if (message.attachments.every(attachIsImage)){
-                    bot.sendMessage({
-                            to: channelID,
-                            message: 'Nice meme, Daniel!'
-                    });
-                  //  }
-                }
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'test!'
+                });
+                //  }
             }
         }
-    });
+    }
+});
 
 function attachIsImage(msgAttach) {
     var url = msgAttach.url;
     //True if this url is a png image.
-    return url.indexOf("png", url.length - "png".length /*or 3*/) !== -1;
+    return url.indexOf("png", url.length - "png".length /*or 3*/ ) !== -1;
 };
