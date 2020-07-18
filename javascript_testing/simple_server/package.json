@@ -1,0 +1,14 @@
+{
+  "name": "simple_server",
+  "version": "1.0.0",
+  "description": "learning how to create a simple server with node js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jvn",
+  "license": "ISC",
+  "dependencies": {
+    "cities": "^2.0.0"
+  }
+}
