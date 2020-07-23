@@ -1,0 +1,14 @@
+{
+  "name": "testing_python_site",
+  "version": "1.0.0",
+  "description": "testing running python from express javascript site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jvn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
