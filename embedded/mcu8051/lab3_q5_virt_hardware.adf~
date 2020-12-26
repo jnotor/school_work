@@ -1,0 +1,10 @@
+# Assembler debug file for MCU 8051 IDE v1.4.9
+# Used assembler: MCU 8051 IDE
+# Date: 10/06/2020
+CE0E85B44B966B5F873BACE172562C2C "lab3_q5_virt_hardware.asm" 
+0 8 0 117 176 0
+0 9 3 116 0
+0 11 5 117 144 255
+0 12 8 229 144
+0 16 10 245 176
+0 19 12 128 247

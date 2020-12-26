@@ -1,0 +1,54 @@
+; ******************************************************************************
+; * Lab7 P3   Ver 001
+; * J. Notorgiacomo 12/1/2020
+; * Description: Counting 0-99 BCD & resetting with timer delay with pause & reset
+
+init:
+    mov tmod, #01h      	; init timer
+    clr tr0
+    clr tf0
+
+    loopTracker equ 30h		; init loop/iteration counter
+    mov loopTracker, #09h
+
+    mov a, #00h
+    mov P2, a 		; store counter value
+
+main:
+    lcall waitNcheck
+    JNB P1.0, PAUSED 		; checks p1.0, paused, is set, in our case is closed
+
+    djnz loopTracker, main 	; decrement the loop tracker so we loop ten times
+    add a, #09h
+    da a
+    mov P2, a 		; store counter value
+
+    mov loopTracker, #09h	; reset the loop/iteration counter
+    SJMP main
+
+waitNcheck:  			; init timer to 10ms wait
+    mov th0, #0D8h  		; 1101 1000
+    mov th0, #0F0h  		; 1111 0000
+    setb tr0        		; start timer
+
+    LCALL waiter
+    ret
+
+PAUSED:
+    JNB P1.1, RESET		; checks p1.1 is set in our case, is closed
+    djnz loopTracker, main 	; decrement the loop tracker so we loop ten times
+    mov loopTracker, #09h	; reset the loop/iteration counter
+    SJMP main
+
+RESET:
+    mov a, #00h
+    djnz loopTracker, main 	; decrement the loop tracker so we loop ten times
+    mov loopTracker, #09h	; reset the loop/iteration counter
+    SJMP main
+
+waiter:
+    jnb tf0, waiter
+    clr tf0
+    ret
+
+

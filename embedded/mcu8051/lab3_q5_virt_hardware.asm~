@@ -1,0 +1,18 @@
+; *** *** *** *** *** *** *** *** *** ***
+; *** Port test READ program
+; *** Reads 8 bits on one port and outputs the result to Port 3.
+; *** LEDs let us see what is happening.
+; ***
+INIT:		; LABEL to make code clear; We never jump to it. Init elements about to be used to known state.
+MOV P3, #00H    ; Write all "0"s to Port 3. Turning off all outputs on startup, turning on the LEDs.
+MOV A, #00H     ; Zero out the accumulator.
+
+TOP: 		; LABEL to jump to
+MOV P1, #0FFH   ; Set all lines high as a preparation for reading a byte.
+MOV A, P1	; Whatever value that was found on Port 1 will be stored in the Accumulator. Imagine it as universal storage.
+		; For a read operation, these two commands should be done one after the other.
+MOV P3, A       ; Take w.e. val found in the accumulator & write that value to P3. 
+		; If Accumulator is not zero, some of the LEDs will turn off
+SJMP TOP 	; Jump to the label "TOP". Behaves like a "GOTO" statement.
+
+.END 		; Preprocessor directive. Tells the compiler that nothing is compiled beyond this line.

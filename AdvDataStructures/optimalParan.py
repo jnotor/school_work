@@ -18,7 +18,7 @@ def chain_matrix(matrices):
     def cols(i): return matrices[i][1]
     def rows(i): return matrices[i][0]
 
-
+    recordings = {}
     f = {}  # cached values of the recurrence relation
     n = len(matrices)
     for l in range(1, n + 1):
@@ -30,11 +30,18 @@ def chain_matrix(matrices):
 
             # Recursive case
             end = start + l - 1
-            f[(start, end)] = min(f[(start, mid)] + f[(mid + 1, end)] +
-                                     rows(start) * cols(mid) * cols(end)
-                                     # NOTE: end is exclusive
-                                     for mid in range(start, end))
 
+            # Default min value to something very high
+            f[(start, end)] = 99999999
+            for mid in range(start, end):
+                Min = f[(start, mid)] + f[(mid + 1, end)] + rows(start) * cols(mid) * cols(end)
+                if Min < f[(start, end)]:
+                    f[(start, end)] = Min
+                    key = '%i, %i position\'s cut was:' % (start, end)
+                    recordings[key] = mid
+
+    for record in recordings:
+        print(record, recordings[record])
     return f, n
 
 

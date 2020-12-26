@@ -1,0 +1,8 @@
+# Assembler debug file for MCU 8051 IDE v1.4.9
+# Used assembler: MCU 8051 IDE
+# Date: 10/07/2020
+DA46021726B99107B338C19D17450561 "lab3_q01.asm" 
+0 7 0 117 144 0
+0 8 3 0
+0 9 4 117 144 255
+0 10 7 128 247
